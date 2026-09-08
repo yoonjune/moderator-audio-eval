@@ -1,0 +1,274 @@
+{
+  "published_date": "2026-09-09",
+  "gpu_snapshot": "2026-09-08 22:17:51 KST",
+  "gpu_paired_ids": [
+    "L000",
+    "L001"
+  ],
+  "results": [
+    {
+      "name": "PersonaPlex",
+      "group": "GPU",
+      "generated": 30,
+      "evaluated_debates": 2,
+      "n": 20,
+      "on_time": 11,
+      "joint": 0,
+      "joint_unknown": 3,
+      "violations": null
+    },
+    {
+      "name": "RL-Seamless",
+      "group": "GPU",
+      "generated": 2,
+      "evaluated_debates": 2,
+      "n": 20,
+      "on_time": 5,
+      "joint": 1,
+      "joint_unknown": 3,
+      "violations": null
+    },
+    {
+      "name": "Gemini 3.1 Live",
+      "group": "Gemini",
+      "generated": 3,
+      "evaluated_debates": 3,
+      "n": 28,
+      "on_time": 7,
+      "joint": 2,
+      "joint_unknown": 1,
+      "violations": 2
+    },
+    {
+      "name": "Gemini 2.5 Live · 기본",
+      "group": "Gemini",
+      "generated": 3,
+      "evaluated_debates": 3,
+      "n": 28,
+      "on_time": 3,
+      "joint": 0,
+      "joint_unknown": 1,
+      "violations": 19
+    },
+    {
+      "name": "Gemini 2.5 Live · Proactive",
+      "group": "Gemini",
+      "generated": 3,
+      "evaluated_debates": 3,
+      "n": 28,
+      "on_time": 5,
+      "joint": 1,
+      "joint_unknown": 1,
+      "violations": 15
+    }
+  ],
+  "gemini_per_debate": {
+    "3.1": {
+      "overall": {
+        "n": 28,
+        "MISSED": 11,
+        "LATE": 8,
+        "content_pass": 4,
+        "content_fail": 11,
+        "content_unknown": 2,
+        "ON_TIME": 7,
+        "joint_pass": 2,
+        "joint_unknown": 1,
+        "extra_unjudged": 3,
+        "PREMATURE": 2,
+        "extra_unknown": 2,
+        "extra_violation": 2
+      },
+      "by_debate": {
+        "L000": {
+          "n": 10,
+          "MISSED": 5,
+          "LATE": 3,
+          "content_pass": 1,
+          "content_fail": 4,
+          "content_unknown": 0,
+          "ON_TIME": 2,
+          "joint_pass": 1,
+          "joint_unknown": 0,
+          "extra_unjudged": 1
+        },
+        "L001": {
+          "n": 10,
+          "ON_TIME": 3,
+          "joint_pass": 0,
+          "joint_unknown": 1,
+          "content_pass": 1,
+          "content_fail": 5,
+          "content_unknown": 2,
+          "PREMATURE": 2,
+          "LATE": 3,
+          "MISSED": 2,
+          "extra_unknown": 2,
+          "extra_violation": 2,
+          "extra_unjudged": 1
+        },
+        "L002": {
+          "n": 8,
+          "MISSED": 4,
+          "ON_TIME": 2,
+          "joint_pass": 1,
+          "joint_unknown": 0,
+          "content_pass": 2,
+          "content_fail": 2,
+          "content_unknown": 0,
+          "LATE": 2,
+          "extra_unjudged": 1
+        }
+      }
+    },
+    "2.5": {
+      "overall": {
+        "n": 28,
+        "PREMATURE": 5,
+        "content_pass": 1,
+        "content_fail": 6,
+        "content_unknown": 3,
+        "MISSED": 18,
+        "ON_TIME": 3,
+        "joint_pass": 0,
+        "joint_unknown": 1,
+        "extra_unknown": 6,
+        "extra_violation": 19,
+        "extra_acceptable": 1,
+        "extra_awkward": 1,
+        "LATE": 2,
+        "extra_unjudged": 2
+      },
+      "by_debate": {
+        "L000": {
+          "n": 10,
+          "PREMATURE": 4,
+          "content_pass": 0,
+          "content_fail": 3,
+          "content_unknown": 2,
+          "MISSED": 5,
+          "ON_TIME": 1,
+          "joint_pass": 0,
+          "joint_unknown": 0,
+          "extra_unknown": 1,
+          "extra_violation": 9,
+          "extra_acceptable": 1,
+          "extra_awkward": 1
+        },
+        "L001": {
+          "n": 10,
+          "MISSED": 8,
+          "PREMATURE": 1,
+          "content_pass": 0,
+          "content_fail": 2,
+          "content_unknown": 0,
+          "LATE": 1,
+          "extra_violation": 4,
+          "extra_unknown": 5,
+          "extra_unjudged": 1
+        },
+        "L002": {
+          "n": 8,
+          "ON_TIME": 2,
+          "joint_pass": 0,
+          "joint_unknown": 1,
+          "content_pass": 1,
+          "content_fail": 1,
+          "content_unknown": 1,
+          "MISSED": 5,
+          "LATE": 1,
+          "extra_violation": 6,
+          "extra_unjudged": 1
+        }
+      }
+    }
+  },
+  "proactive_per_debate": {
+    "overall": {
+      "n": 28,
+      "PREMATURE": 7,
+      "content_pass": 2,
+      "content_fail": 8,
+      "content_unknown": 2,
+      "MISSED": 16,
+      "ON_TIME": 5,
+      "joint_pass": 1,
+      "joint_unknown": 1,
+      "extra_violation": 15,
+      "extra_unknown": 3,
+      "extra_unjudged": 1
+    },
+    "by_debate": {
+      "L000": {
+        "n": 10,
+        "PREMATURE": 3,
+        "content_pass": 2,
+        "content_fail": 4,
+        "content_unknown": 0,
+        "MISSED": 4,
+        "ON_TIME": 3,
+        "joint_pass": 1,
+        "joint_unknown": 0,
+        "extra_violation": 6
+      },
+      "L001": {
+        "n": 10,
+        "ON_TIME": 2,
+        "joint_pass": 0,
+        "joint_unknown": 1,
+        "content_pass": 0,
+        "content_fail": 2,
+        "content_unknown": 1,
+        "MISSED": 7,
+        "PREMATURE": 1,
+        "extra_violation": 3,
+        "extra_unknown": 1,
+        "extra_unjudged": 1
+      },
+      "L002": {
+        "n": 8,
+        "PREMATURE": 3,
+        "content_pass": 0,
+        "content_fail": 2,
+        "content_unknown": 1,
+        "MISSED": 5,
+        "extra_violation": 6,
+        "extra_unknown": 2
+      }
+    }
+  },
+  "costs_known_subtotals": [
+    {
+      "name": "gemini-3.1-flash-live-preview · 기본",
+      "n": 3,
+      "mean_usd": 0.10220499999999999,
+      "projection": {
+        "30": 3.0661499999999995,
+        "100": 10.2205,
+        "1000": 102.20499999999998
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-native-audio-preview-12-2025 · 기본",
+      "n": 3,
+      "mean_usd": 0.085206,
+      "projection": {
+        "30": 2.5561800000000003,
+        "100": 8.5206,
+        "1000": 85.206
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-native-audio-preview-12-2025 · Proactive",
+      "n": 3,
+      "mean_usd": 0.0913875,
+      "projection": {
+        "30": 2.741625,
+        "100": 9.13875,
+        "1000": 91.3875
+      }
+    }
+  ],
+  "audio_published": false,
+  "status": "provisional AI evaluation, not human gold"
+}
