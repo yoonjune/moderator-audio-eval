@@ -269,6 +269,6 @@
       }
     }
   ],
-  "audio_published": false,
+  "audio_published": true,
   "status": "provisional AI evaluation, not human gold"
 }

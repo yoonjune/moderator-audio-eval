@@ -1,7 +1,7 @@
 # Moderator Audio Eval
 
-Public result-only snapshot. No audio, transcripts, credentials, private logs or model weights.
+Public result snapshot with interactive listening reports and lossless FLAC playback copies, published with user approval. API keys, internal logs, voice references and model weights are excluded.
 
-Open https://yoonjune.github.io/moderator-audio-eval/
+https://yoonjune.github.io/moderator-audio-eval/
 
-All assessments are provisional AI evaluations; see the published limitations and sample sizes. No third-party data redistribution license is granted.
+Assessments are provisional AI evaluations, not human gold. Third-party data rights are not relicensed.

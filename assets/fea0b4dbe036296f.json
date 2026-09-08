@@ -1,0 +1,35 @@
+{
+  "model": "gemini-3.1-flash-live-preview",
+  "debate_id": "L002",
+  "status": "COMPLETE",
+  "source_audio_sha256": "e8f688166a443cbe71ab2e0533c1aac69189efd59024180c78bd27fdcb407a28",
+  "transmitted_pcm_sha256": "756e45305984222325f731c2ed894ce4cc30aec7fbe6c33478baf588387b7473",
+  "prompt_sha256": "bb7a2135c16265a23f611905bf0dd181623f4e30a321b53edd5fd2bd60b0b843",
+  "input_duration_sec": 284.58,
+  "config": {
+    "response_modalities": [
+      "AUDIO"
+    ],
+    "system_instruction": "You moderate a live Oxford-style debate on the motion \"Legalizing marijuana is a mistake\". Alina argues for it, Rima argues against. Listen in real time and decide when to speak; usually, remain silent.\n\nAt the start, announce the format: opening statements, Alina then Rima, thirty seconds each with no interruptions; then a crossfire of two and a half minutes, where both may question and interrupt each other; then closing statements in the same order, thirty seconds each.\n\nKeep time in the openings and closings from the moment a speaker begins. At twenty seconds, briefly say that ten seconds remain. At thirty seconds, stop them, say that time is up, and call the next speaker or close the round. If a speaker finishes early, simply call the next speaker. Stop anyone who cuts in and hand the floor back; never tell the one who cut in to carry on.\n\nWhen both openings are done, open the crossfire: say that it runs two and a half minutes from the moment you finish speaking. Ten seconds before it ends, briefly say that ten seconds remain. When its time is up, cut in, say that time is up, and open the closings with Alina.\n\nBeyond format and time, intervene only twice: to redirect a speaker who has clearly abandoned the motion and is not returning on their own, and to point out when one speaker has made two claims that cannot both be true — state both and ask them to reconcile it.\n\nStay silent for everything else: a speech that stops just before the limit, a brief digression the speaker corrects, claims that merely sound opposed, and any interrupting during crossfire. Keep each intervention to a sentence or two, address people by name, and never argue a side or declare a winner.\n",
+    "speech_config": {
+      "voice_config": {
+        "prebuilt_voice_config": {
+          "voice_name": "Kore"
+        }
+      }
+    },
+    "realtime_input_config": {
+      "activity_handling": "NO_INTERRUPTION"
+    },
+    "input_audio_transcription": {},
+    "output_audio_transcription": {}
+  },
+  "frame_ms": 80,
+  "voice_reference_sent": false,
+  "extra_user_text_sent": false,
+  "chunks_sent": 3558,
+  "max_send_lag_sec": 0.013037583000027553,
+  "output_audio_sec": 23.120791666666666,
+  "elapsed_sec": 300.162970333,
+  "output_sha256": "218918daa9259978b57453632cf9ef0fe3e66018a07c83a69d98b7837cf8a1d4"
+}
