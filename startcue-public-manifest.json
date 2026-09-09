@@ -1,0 +1,24 @@
+{
+  "page": "startcue.html",
+  "data": "startcue-data.js",
+  "assets": [
+    "assets/11c7d6e6cdbd7a3d.flac",
+    "assets/161420c0e64f3e50.flac",
+    "assets/372c79a3b116ecf7.txt",
+    "assets/65b82a1183b352bc.json",
+    "assets/8ab00af9c9b491c7.json",
+    "assets/b16ee8f1abc616ee.json",
+    "assets/b3c2054bbdda325f.flac",
+    "assets/d26b05b67a790ef5.json",
+    "assets/d43bcaeb66c1ab8e.flac"
+  ],
+  "conditions": [
+    "brief_audio",
+    "brief_text",
+    "detailed_audio",
+    "detailed_text"
+  ],
+  "audio": "lossless FLAC converted from stereo PCM16; input left / Gemini right",
+  "evaluation": "evaluation_asr_v2",
+  "excluded": "credentials, API events, judge packets/logs, voice references, local paths, model-only/input-only copies"
+}

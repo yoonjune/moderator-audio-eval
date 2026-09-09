@@ -270,5 +270,68 @@
     }
   ],
   "audio_published": true,
-  "status": "provisional AI evaluation, not human gold"
+  "status": "provisional AI evaluation, not human gold",
+  "startcue_english_l000": {
+    "model": "gemini-3.1-flash-live-preview",
+    "scope": "one exposed development sample; not confirmatory",
+    "evaluation": "independent Whisper ASR recovery + provisional fresh blind Codex judgment",
+    "conditions": {
+      "brief_audio": {
+        "timing": {
+          "ON_TIME": 3,
+          "LATE": 2,
+          "MISSED": 5,
+          "PREMATURE": 0
+        },
+        "content": {
+          "pass": 4,
+          "fail": 1,
+          "unknown": 0
+        },
+        "joint_pass": 3
+      },
+      "brief_text": {
+        "timing": {
+          "ON_TIME": 3,
+          "LATE": 2,
+          "MISSED": 5,
+          "PREMATURE": 0
+        },
+        "content": {
+          "pass": 0,
+          "fail": 5,
+          "unknown": 0
+        },
+        "joint_pass": 0
+      },
+      "detailed_audio": {
+        "timing": {
+          "ON_TIME": 1,
+          "LATE": 4,
+          "MISSED": 5,
+          "PREMATURE": 0
+        },
+        "content": {
+          "pass": 0,
+          "fail": 5,
+          "unknown": 0
+        },
+        "joint_pass": 0
+      },
+      "detailed_text": {
+        "timing": {
+          "ON_TIME": 3,
+          "LATE": 2,
+          "MISSED": 5,
+          "PREMATURE": 0
+        },
+        "content": {
+          "pass": 1,
+          "fail": 4,
+          "unknown": 0
+        },
+        "joint_pass": 1
+      }
+    }
+  }
 }

@@ -9,7 +9,7 @@
 .grid>*,.columns>*,.helpgrid>*,header>div{min-width:0}.toolbar label{max-width:100%;min-width:0}.toolbar select{min-width:0}#mode{max-width:100%}@media(max-width:600px){header{flex-direction:column;gap:12px}.topright{max-width:none;text-align:left}.toolbar label{width:100%}#debate{width:100%}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.columns,.helpgrid{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
-<body><nav style="padding:12px 20px;background:#162c30;display:flex;gap:20px;flex-wrap:wrap"><a style="color:white" href="index.html">요약</a><a style="color:white" href="gpu.html">GPU 모델</a><a style="color:white" href="gemini.html">Gemini 3.1 / 2.5</a><a style="color:white" href="proactive.html">2.5 기본 / Proactive</a></nav><main>
+<body><nav style="padding:12px 20px;background:#162c30;display:flex;gap:20px;flex-wrap:wrap"><a style="color:white" href="index.html">요약</a><a style="color:white" href="gpu.html">GPU 모델</a><a style="color:white" href="gemini.html">Gemini 3.1 / 2.5</a><a style="color:white" href="proactive.html">2.5 기본 / Proactive</a><a style="color:white" href="startcue.html">3.1 Start cue</a></nav><main>
 <header><div><div class="eyebrow">RESEARCH / AUDIO EVIDENCE</div><h1>사회자 모델, 실제로 들어보기</h1><div class="muted">Gemini 3.1 Live × Gemini 2.5 Live · API Live · 동일 입력 3편 파일럿</div></div><div class="topright"><button onclick="location.reload()">최신 결과 불러오기 ↻</button><div id="updated" class="small muted"></div></div></header>
 <div class="notice"><strong id="batchState">결과 확인 중</strong><div class="small">실제 모델 생성 WAV입니다. 정답 사회자 음성을 덮어씌우지 않았습니다. 미완료 토론은 점수에서 제외합니다. 가이드 기준 WAV timing + 블라인드 fresh Codex 내용 평가 완료. AI 잠정 판정이며 미정렬 13/62개 음성 구간은 내용 미확인입니다.</div></div>
 <section class="grid" id="cards"></section>

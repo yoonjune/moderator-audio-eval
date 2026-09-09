@@ -1,0 +1,233 @@
+{
+  "condition": "detailed_text",
+  "revision": "independent Whisper recovery + fresh blind Codex content rejudgment",
+  "status": "provisional AI evaluation, not human gold",
+  "summary": {
+    "timing": {
+      "ON_TIME": 3,
+      "LATE": 2,
+      "MISSED": 5,
+      "PREMATURE": 0
+    },
+    "content": {
+      "pass": 1,
+      "fail": 4,
+      "unknown": 0
+    },
+    "joint_pass": 1
+  },
+  "triggers": [
+    {
+      "probe_id": "L000_p02",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 40.08,
+      "session_deadline_sec": 44.24580570900004,
+      "original_window": [
+        38.08,
+        40.08,
+        42.08
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p04",
+      "code": "A2-1",
+      "timing": "LATE",
+      "onset_minus_deadline": 2.71,
+      "text": "Ten seconds remain.",
+      "original_deadline_sec": 50.08,
+      "session_deadline_sec": 54.24580570900004,
+      "original_window": [
+        50.08,
+        50.08,
+        52.08
+      ],
+      "session_onset_sec": 56.96,
+      "judgment": {
+        "pass": false,
+        "predicted_label": "A1",
+        "verdict": "violation",
+        "violated_duty": "stops the speaker for time",
+        "why": "“Ten seconds remain” is a time warning; it does not stop the speaker."
+      }
+    },
+    {
+      "probe_id": "L000_p07",
+      "code": "A5",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 62.76,
+      "session_deadline_sec": 66.92580570900003,
+      "original_window": [
+        62.76,
+        62.76,
+        64.76
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p09",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 73.7,
+      "session_deadline_sec": 77.86580570900004,
+      "original_window": [
+        71.7,
+        73.7,
+        75.7
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p11",
+      "code": "A3-1",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.21,
+      "text": "Time is up. Rich, your opening statement, please begin.",
+      "original_deadline_sec": 81.34,
+      "session_deadline_sec": 85.50580570900004,
+      "original_window": [
+        81.34,
+        81.34,
+        83.34
+      ],
+      "session_onset_sec": 86.72,
+      "judgment": {
+        "pass": false,
+        "predicted_label": "A2-2",
+        "verdict": "violation",
+        "violated_duty": "announce crossfire and state its two-and-a-half-minute length",
+        "why": "The utterance ends the current turn and gives Rich the floor for an opening statement, but it neither announces crossfire nor states its length."
+      }
+    },
+    {
+      "probe_id": "L000_p16",
+      "code": "B1",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.33,
+      "text": "Time is up. The crossfire period begins now for two and a half minutes. Both may question and interrupt each other. Go ahead.",
+      "original_deadline_sec": 137.86,
+      "session_deadline_sec": 142.02580570900005,
+      "original_window": [
+        137.86,
+        137.86,
+        139.86
+      ],
+      "session_onset_sec": 143.36,
+      "judgment": {
+        "pass": false,
+        "predicted_label": "A3-1",
+        "verdict": "violation",
+        "violated_duty": "redirects the speaker back to the motion",
+        "why": "It announces crossfire and its two-and-a-half-minute duration; it does not redirect the speaker to the motion."
+      }
+    },
+    {
+      "probe_id": "L000_p25",
+      "code": "A4xf",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 232.14,
+      "session_deadline_sec": 236.30580570900003,
+      "original_window": [
+        230.14,
+        232.14,
+        234.14
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p27",
+      "code": "A3-2",
+      "timing": "LATE",
+      "onset_minus_deadline": 2.37,
+      "text": "Ten seconds remain.",
+      "original_deadline_sec": 242.14,
+      "session_deadline_sec": 246.30580570900003,
+      "original_window": [
+        240.14,
+        242.14,
+        244.14
+      ],
+      "session_onset_sec": 248.68,
+      "judgment": {
+        "pass": false,
+        "predicted_label": "A1",
+        "verdict": "violation",
+        "violated_duty": "say time is up and move to the closing round",
+        "why": "“Ten seconds remain” is only a warning and neither says time is up nor announces the closing round."
+      }
+    },
+    {
+      "probe_id": "L000_p30",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 269.66,
+      "session_deadline_sec": 273.82580570900006,
+      "original_window": [
+        267.66,
+        269.66,
+        271.66
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p31",
+      "code": "A2-2",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.79,
+      "text": "Time is up. Rich, you may present your closing statement. Please begin.",
+      "original_deadline_sec": 277.78,
+      "session_deadline_sec": 281.945805709,
+      "original_window": [
+        277.78,
+        277.78,
+        279.78
+      ],
+      "session_onset_sec": 283.74,
+      "judgment": {
+        "pass": true,
+        "predicted_label": "A2-2",
+        "verdict": "acceptable",
+        "violated_duty": null,
+        "why": "The utterance explicitly hands the floor to the other side by naming Rich and inviting his closing statement."
+      }
+    }
+  ],
+  "non_trigger": [
+    {
+      "start_sec": 0.72,
+      "end_sec": 23.8,
+      "session_start_sec": 0.72,
+      "text": "Welcome to this debate on the motion: \"The Palestinians should give up their full right of return.\"\n\nThe format is as follows: opening statements, Rachel then Rich, thirty seconds each with no interruptions; then a crossfire of two and a half minutes, where both may question and interrupt each other; followed by closing statements in the same order, thirty seconds each.\n\nRachel, you have the floor for your opening statement. Please begin.",
+      "kind": "opening_announcement",
+      "trap": null,
+      "nearest_trigger": null,
+      "judgment": null
+    },
+    {
+      "start_sec": 298.2342,
+      "end_sec": 303.2542,
+      "session_start_sec": 302.4,
+      "text": "That concludes our debate. Thank you to our speakers, and thank you to the audience. You may now disconnect.",
+      "kind": "closing",
+      "trap": null,
+      "nearest_trigger": null,
+      "judgment": null
+    }
+  ]
+}

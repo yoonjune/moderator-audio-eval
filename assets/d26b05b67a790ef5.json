@@ -1,0 +1,253 @@
+{
+  "condition": "brief_audio",
+  "revision": "independent Whisper recovery + fresh blind Codex content rejudgment",
+  "status": "provisional AI evaluation, not human gold",
+  "summary": {
+    "timing": {
+      "ON_TIME": 3,
+      "LATE": 2,
+      "MISSED": 5,
+      "PREMATURE": 0
+    },
+    "content": {
+      "pass": 4,
+      "fail": 1,
+      "unknown": 0
+    },
+    "joint_pass": 3
+  },
+  "triggers": [
+    {
+      "probe_id": "L000_p02",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 40.08,
+      "session_deadline_sec": 33.77379166666667,
+      "original_window": [
+        38.08,
+        40.08,
+        42.08
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p04",
+      "code": "A2-1",
+      "timing": "LATE",
+      "onset_minus_deadline": 2.69,
+      "text": "Time is up. Rich, your 30 seconds starts now.",
+      "original_deadline_sec": 50.08,
+      "session_deadline_sec": 43.77379166666667,
+      "original_window": [
+        50.08,
+        50.08,
+        52.08
+      ],
+      "session_onset_sec": 46.46,
+      "judgment": {
+        "pass": true,
+        "predicted_label": "A2-1",
+        "verdict": null,
+        "violated_duty": null,
+        "why": "“Time is up” explicitly stops Rachel for time, then hands the floor to Rich."
+      }
+    },
+    {
+      "probe_id": "L000_p07",
+      "code": "A5",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 62.76,
+      "session_deadline_sec": 56.45379166666667,
+      "original_window": [
+        62.76,
+        62.76,
+        64.76
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p09",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 73.7,
+      "session_deadline_sec": 67.39379166666667,
+      "original_window": [
+        71.7,
+        73.7,
+        75.7
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p11",
+      "code": "A3-1",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.11,
+      "text": "Rich, time is up. We now move into crossfire. You have two and a half minutes beginning now.",
+      "original_deadline_sec": 81.34,
+      "session_deadline_sec": 75.03379166666667,
+      "original_window": [
+        81.34,
+        81.34,
+        83.34
+      ],
+      "session_onset_sec": 76.14,
+      "judgment": {
+        "pass": true,
+        "predicted_label": "A3-1",
+        "verdict": null,
+        "violated_duty": null,
+        "why": "The utterance announces the move into crossfire and states that it lasts two and a half minutes."
+      }
+    },
+    {
+      "probe_id": "L000_p16",
+      "code": "B1",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.33,
+      "text": "Rachel, you're focused on the practical needs of governance, but the point Rich is making is about the underlying right itself.",
+      "original_deadline_sec": 137.86,
+      "session_deadline_sec": 131.55379166666668,
+      "original_window": [
+        137.86,
+        137.86,
+        139.86
+      ],
+      "session_onset_sec": 132.88,
+      "judgment": {
+        "pass": true,
+        "predicted_label": "B1",
+        "verdict": null,
+        "violated_duty": null,
+        "why": "It redirects Rachel from practical governance details to the motion’s central issue—the underlying right of return."
+      }
+    },
+    {
+      "probe_id": "L000_p25",
+      "code": "A4xf",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 232.14,
+      "session_deadline_sec": 225.83379166666666,
+      "original_window": [
+        230.14,
+        232.14,
+        234.14
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p27",
+      "code": "A3-2",
+      "timing": "LATE",
+      "onset_minus_deadline": 2.37,
+      "text": "Ten seconds remaining.",
+      "original_deadline_sec": 242.14,
+      "session_deadline_sec": 235.83379166666666,
+      "original_window": [
+        240.14,
+        242.14,
+        244.14
+      ],
+      "session_onset_sec": 238.2,
+      "judgment": {
+        "pass": false,
+        "predicted_label": "A1",
+        "verdict": null,
+        "violated_duty": null,
+        "why": "It gives a ten-second warning but neither says that time is up nor moves to the closing round."
+      }
+    },
+    {
+      "probe_id": "L000_p30",
+      "code": "A4",
+      "timing": "MISSED",
+      "onset_minus_deadline": null,
+      "text": null,
+      "original_deadline_sec": 269.66,
+      "session_deadline_sec": 263.35379166666667,
+      "original_window": [
+        267.66,
+        269.66,
+        271.66
+      ],
+      "session_onset_sec": null,
+      "judgment": null
+    },
+    {
+      "probe_id": "L000_p31",
+      "code": "A2-2",
+      "timing": "ON_TIME",
+      "onset_minus_deadline": 1.79,
+      "text": "Rich, time is up. We now move to closing statements. Rachel, you have 30 seconds. Please begin.",
+      "original_deadline_sec": 277.78,
+      "session_deadline_sec": 271.4737916666666,
+      "original_window": [
+        277.78,
+        277.78,
+        279.78
+      ],
+      "session_onset_sec": 273.26,
+      "judgment": {
+        "pass": true,
+        "predicted_label": "A2-2",
+        "verdict": null,
+        "violated_duty": null,
+        "why": "It hands the floor from Rich to the other side by explicitly calling on Rachel."
+      }
+    }
+  ],
+  "non_trigger": [
+    {
+      "start_sec": 2.38,
+      "end_sec": 13.28,
+      "session_start_sec": 2.38,
+      "text": "Welcome to this Oxford-style debate on the motion: \"The Palestinians should give up their full right of return.\" We'll begin with opening statements. Rachel, you have 30 seconds. Please begin.",
+      "kind": "opening_announcement",
+      "trap": null,
+      "nearest_trigger": null,
+      "judgment": null
+    },
+    {
+      "start_sec": 146.4262,
+      "end_sec": 152.6062,
+      "session_start_sec": 140.12,
+      "text": "Can you address the argument that accepting compensation would negate that right rather than being a practical solution?",
+      "kind": "non_trigger",
+      "trap": null,
+      "nearest_trigger": {
+        "probe_id": "L000_p16",
+        "code": "B1",
+        "distance_sec": 8.57
+      },
+      "judgment": {
+        "pass": null,
+        "predicted_label": null,
+        "verdict": "violation",
+        "violated_duty": "Beyond format and time, intervene only twice: to redirect a speaker who has clearly abandoned the motion and is not returning on their own, and to point out when one speaker has made two claims that cannot both be true — state both and ask them to reconcile it.",
+        "why": "This substantive follow-up question is neither an authorized redirection nor a contradiction intervention."
+      }
+    },
+    {
+      "start_sec": 297.9462,
+      "end_sec": 301.6062,
+      "session_start_sec": 291.64,
+      "text": "Time is up. Rich, your 30 seconds now. Please begin.",
+      "kind": "closing",
+      "trap": null,
+      "nearest_trigger": null,
+      "judgment": null
+    }
+  ]
+}
