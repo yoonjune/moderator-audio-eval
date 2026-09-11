@@ -7,3 +7,5 @@ https://yoonjune.github.io/moderator-audio-eval/
 Assessments are provisional AI evaluations, not human gold. Third-party data rights are not relicensed.
 
 English start-cue L000 Listening Lab: https://yoonjune.github.io/moderator-audio-eval/startcue.html
+
+Phase-cue performance Listening Lab: https://yoonjune.github.io/moderator-audio-eval/phase-cue-performance.html

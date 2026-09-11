@@ -333,5 +333,27 @@
         "joint_pass": 1
       }
     }
+  },
+  "phase_cue_performance_10": {
+    "model": "gemini-3.1-flash-live-preview",
+    "scope": "10 exposed development debates; B0 versus B1; not confirmatory",
+    "evaluation": "frozen timing scorer + provisional fresh Codex transcript review",
+    "B0_START_ONLY": {
+      "expected_n": 98,
+      "timing_on_time": 26,
+      "content_pass": 19,
+      "joint_strict": 10,
+      "phase_transition_strict_within_5_sec": 4,
+      "both_transitions_in_debate": 1
+    },
+    "B1_PHASE_CUES": {
+      "expected_n": 98,
+      "timing_on_time": 21,
+      "content_pass": 17,
+      "joint_strict": 6,
+      "phase_transition_strict_within_5_sec": 7,
+      "both_transitions_in_debate": 1
+    },
+    "interpretation": "Local phase-boundary reactivity increased, but the pilot does not support an overall moderator-performance improvement."
   }
 }
